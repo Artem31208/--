@@ -30,7 +30,7 @@ double rezult = e + d;
 Console.WriteLine("Разом за два дні витратив = " + rezult);
 Console.ReadLine();
 Console.Clear();
-Console.WriteLine (mane  +  lastname);
+Console.WriteLine(mane+" "+lastname);
 if (a == 18)
 {
     Console.WriteLine("Повнолітній");
