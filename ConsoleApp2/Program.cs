@@ -9,11 +9,11 @@ int a = Convert.ToInt32(str);
 if (a == 18)
 {
     Console.WriteLine("Повнолітній");
-
+}
 else if (a >= 18)
 {
     Console.WriteLine("Повнолітній");
-   
+
 }
 if (a < 18)
 {
@@ -31,5 +31,16 @@ Console.WriteLine("Разом за два дні витратив = " + rezult);
 Console.ReadLine();
 Console.Clear();
 Console.WriteLine (mane  +  lastname);
-Console.WriteLine(a);
+if (a == 18)
+{
+    Console.WriteLine("Повнолітній");
+}
+else if (a >= 18)
+{
+    Console.WriteLine("Повнолітній");
+}
+if (a < 18)
+{
+    Console.WriteLine("Не повнолітній");
+}
 Console.WriteLine("Разом витратив " + rezult);
