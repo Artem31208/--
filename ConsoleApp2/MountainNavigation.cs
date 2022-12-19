@@ -131,5 +131,9 @@
             }
         }
 
+        public static int[,] GetThePlanetMap()
+        {
+            return map;
+        }
     }
 }
